@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -6,11 +11,67 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+a, span, p {
+  @apply font-[TypographproLight]
 }
 
 * {
   box-sizing: border-box;
 }
+
+.deBorder {
+  @apply border-[1px] border-fuchsia-600
+}
+
+h1, h2, h3 {
+  @apply font-['TypographproSemiBold']
+}
+
+.navLinkContainer{
+  @apply text-khaki-50 text-base 
+}
+
+.navLink:hover{
+  @apply drop-shadow-xl text-khaki-400 duration-500
+}
+
+
+
+@layer base {
+  @font-face {
+  font-family: "Barcelony";
+  src: url('../fonts/Barcelony.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: "TypographproLight";
+    src: url('../fonts/TYPOGRAPH PRO Light.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: "TypographproLightItalic";
+    src: url('../fonts/TYPOGRAPH PRO Light Italic.ttf') format('truetype');
+
+  }
+
+  @font-face {
+    font-family: "TypographproSemiBold";
+    src: url('../fonts/TYPOGRAPH PRO Semi Bold.ttf') format('truetype');
+  }
+  @font-face {
+      font-family: "TypographproSemiBoldItalic";
+      src: url('../fonts/TYPOGRAPH PRO Semi Bold Italic.ttf') format('truetype');
+  
+  }
+
+  @font-face {
+    font-family: "TypographproExtraBold";
+    src: url('../fonts/TYPOGRAPH PRO Extra Bold.ttf') format('truetype');
+  }
+
+
+
+
+}
+
+

@@ -13,7 +13,7 @@ export default function Footer() {
                     <h1 className="font-['Barcelony'] text-3xl text-gray-50 py-3">
                         K. A.
                     </h1>
-                    <div className="text-xs text-khaki-100 pt-4">
+                    <div className="text-sm text-khaki-100 pt-4">
                         <ul className="flex w-30 flex-auto gap-6">
                             <ul>
                                 <li className="py-1">
@@ -35,9 +35,11 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="absolute flex flex-wrap justify-around bottom-0 right-0 gap-2 text-khaki-50 text-xl">
-                    <AiOutlineLinkedin />
-                    <AiOutlineTwitter />
-                    <AiOutlineMail />
+                    <a href="https://www.linkedin.com/in/kylie-adams-673926192/">
+                        <AiOutlineLinkedin size={30} />
+                    </a>
+                    <AiOutlineTwitter size={30} />
+                    <AiOutlineMail size={30} />
                 </div>
             </div>
 

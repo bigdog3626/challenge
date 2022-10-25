@@ -13,7 +13,7 @@ export default function Layout({ children, ...customMeta }) {
         ...customMeta,
     };
     return (
-        <div className="flex flex-col justify-between h-screen w-screen">
+        <div className="flex flex-col justify-between w-screen bg-lime-50 min-h-screen">
             <Head>
                 <title>{meta.title}</title>
                 <meta
@@ -28,7 +28,7 @@ export default function Layout({ children, ...customMeta }) {
             </Head>
 
             <Navbar />
-            <main className="bg-lime-50 w-full">
+            <main className=" w-full">
                 <div>{children}</div>
             </main>
             <Footer />

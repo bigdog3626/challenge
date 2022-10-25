@@ -21,20 +21,44 @@ export default function hero() {
                     </div>
                     <div>
                         <p className="prose md:prose-2xl font-['TypographProLight'] my-3">
-                            Hi, I am Kylie a highly motivated rising senior at
-                            The University of Georgia studying Health Promotion
-                            with a minor in Global Health. After graduation I
-                            plan to go to law school and attend a dual MPH and
-                            JD program to eventually become a legal consult.{" "}
+                            Kylie Adams is a senior at the University of Georgia
+                            where she is majoring in Health Promotion with a
+                            minor in Global Health. Her interest in public
+                            health began during highschool when she had the
+                            opportunity to help establish a food pantry in her
+                            community. She is passionate about improving health
+                            equity in the United States. One of her dreams is to
+                            improve comprehensive sexuality education, in
+                            schools and in communities. <br />
+                            <br />
+                            Kylie aspires to pursue a career in health policy
+                            and propose new policies that strive to achieve
+                            these missions. When she is not busy listening to
+                            health and political podcasts, she enjoys working in
+                            the coffee industry and going on outdoor adventures.
+                            <br />
+                            <br />
+                            Kylie will be interning in the spring at the CDC’s
+                            Office of Safety, Security, and Asset Management
+                            (OSSAM) where she will participate in and lead
+                            process improvement projects in addition to working
+                            with the CDC’s Occupational Health Clinic to develop
+                            influenza planning documentation and a new nurse
+                            hire training plan and materials. She is expected to
+                            graduate in May 2023. After graduation, Kylie is
+                            hoping to gain experience working in the public
+                            health field before pursuing further education in
+                            graduate or law school programs.
                             <Link href="/proposals">
                                 <a
-                                    className={`font-['TypographProLightItalic'] text-forrest-400 no-underline hover:text-forrest-900 hover:underline ${
+                                    className={`font-['TypographProLightItalic'] text-lime-700 no-underline hover:text-forrest-900 hover:underline ${
                                         router.asPath === "/proposals"
                                             ? "text-khaki-400 underline-offset-[5px] underline"
                                             : ""
                                     }`}
                                 >
-                                    View some of my proposals...{" "}
+                                    {" "}
+                                    View some of my projects...{" "}
                                 </a>
                             </Link>
                         </p>

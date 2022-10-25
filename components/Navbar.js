@@ -69,9 +69,11 @@ export default function Navbar() {
                 </div>
 
                 <div className="container-fluid flex flex-wrap justify-between items-center gap-2 text-khaki-50 text-xl">
-                    <AiOutlineLinkedin />
-                    <AiOutlineTwitter />
-                    <AiOutlineMail />
+                    <a href="https://www.linkedin.com/in/kylie-adams-673926192/">
+                        <AiOutlineLinkedin size={30} />
+                    </a>
+                    <AiOutlineTwitter size={30} />
+                    <AiOutlineMail size={30} />
                 </div>
             </div>
         </nav>
